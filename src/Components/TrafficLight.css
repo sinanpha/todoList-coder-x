@@ -1,0 +1,29 @@
+.traffic {
+    display: flex;
+    flex-direction: column;
+}
+
+.traffic .poin {
+    width: 64px;
+    height: 64px;
+    margin: 20px;
+    border-radius: 50%;
+    opacity: .2;
+    display: inline-block;
+}
+
+.traffic .poin.active {
+    opacity: 1;
+}
+
+.traffic .poin.red {
+    background-color: red;
+}
+
+.traffic .poin.orange {
+    background-color: orange;
+}
+
+.traffic .poin.green {
+    background-color: green;
+}
